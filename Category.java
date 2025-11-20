@@ -10,6 +10,7 @@ public class Category extends MainClass{//extending the mainclass
         System.out.println("4.Cold Drink :- 30/-");
         System.out.println("5.Coffee :- 39/-");
         System.out.println("6.Mouth watering Combos starting from 149/-");
+        System.out.println("7.View your cart");
         System.out.println("                             ");
         System.out.println("NOTE(Extra charges may apply)");
         System.out.println("                             ");
