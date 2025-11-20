@@ -1,71 +1,73 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all they need to know. The comments should usually include at least:
-------------------------------------------------------------------------
+<div align="center">
 
-PROJECT TITLE:Food Ordering Program
-PURPOSE OF PROJECT:To take orders and display the bill as per the order
-VERSION or DATE:
-HOW TO START THIS PROJECT: Right click the mainclass,
-first complie it and then click on void main
+# 🍔 YummyBee - Automated Food Ordering System
 
-AUTHORS:Aniket Pandey(24BSA10012)
+### *Digitizing Fast-Food Ordering with Java*
 
-USER INSTRUCTIONS: 1.Enter your personal details
-                   2.Enter the number as the per the food you want.
-                   3.Do as the code say to do
+[![Java](https://img.shields.io/badge/Java-8%2B-orange?style=flat&logo=java)](https://www.java.com)
+[![BlueJ](https://img.shields.io/badge/IDE-BlueJ-blue?style=flat)](https://www.bluej.org)
+[![License](https://img.shields.io/badge/License-Educational-green?style=flat)](LICENSE)
 
-🍔 YummyBee - Automated Food Ordering System
+**PROJECT TITLE:** Food Ordering Program  
+**PURPOSE:** To take orders and display the bill as per the order  
+**AUTHOR:** Aniket Pandey (24BSA10012)
 
-📋 Project Overview
+---
 
-YummyBee is a console-based Java application designed to digitize the food ordering process in fast-food restaurants. It replaces error-prone manual billing with an automated system that handles menu management, dynamic cart operations, tax calculation (GST), and discount coupon validation.
+</div>
 
-This project was built to demonstrate Object-Oriented Programming (OOP) concepts including Inheritance, Encapsulation, and Polymorphism, alongside dynamic data structures for real-time order management.
+## 📋 Project Overview
 
-✨ Key Features
+YummyBee is a **console-based Java application** designed to digitize the food ordering process in fast-food restaurants. It replaces error-prone manual billing with an automated system that handles menu management, dynamic cart operations, tax calculation (GST), and discount coupon validation.
 
-This project implements Three Major Functional Modules as required:
+This project demonstrates **Object-Oriented Programming (OOP)** concepts including:
+- **Inheritance**
+- **Encapsulation**
+- **Polymorphism**
+- Dynamic data structures for real-time order management
 
-1. User Management & Authentication 👤
+---
 
-Secure login system (Email/Password validation).
+## ✨ Key Features
 
-Captures customer details (Name, Phone) for the invoice.
+### Three Major Functional Modules:
 
-2. Dynamic Cart & Order Processing (CRUD) 🛒
+#### 1. 👤 User Management & Authentication
+- Secure login system (Email/Password validation)
+- Captures customer details (Name, Phone) for the invoice
 
-Create: Add items from multiple categories (Burgers, Pizzas, Combos).
+#### 2. 🛒 Dynamic Cart & Order Processing (CRUD)
+| Operation | Description |
+|-----------|-------------|
+| **Create** | Add items from multiple categories (Burgers, Pizzas, Combos) |
+| **Read** | View the current cart status with itemized pricing |
+| **Update** | Modify the quantity of items already in the cart |
+| **Delete** | Remove specific items from the cart before checkout |
 
-Read: View the current cart status with itemized pricing.
+> **Tech Spec:** Implemented using `ArrayList` for dynamic memory management
 
-Update: Modify the quantity of items already in the cart.
+#### 3. 🧾 Advanced Billing & Reporting
+- ✅ **Automated Calculation:** Real-time summation of item prices
+- ✅ **Taxation:** Automatic application of 5% GST
+- ✅ **Coupon System:** Smart logic to validate discount codes (e.g., `112021` for 20% off)
+- ✅ **Invoice Generation:** Specific itemized bill printed to the console
 
-Delete: Remove specific items from the cart before checkout.
+---
 
-Tech Spec: Implemented using ArrayList for dynamic memory management.
+## 🛠️ Technologies Used
 
-3. Advanced Billing & Reporting 🧾
-
-Automated Calculation: Real-time summation of item prices.
-
-Taxation: Automatic application of 5% GST.
-
-Coupon System: Smart logic to validate discount codes (e.g., 112021 for 20% off).
-
-Invoice Generation: specific itemized bill printed to the console.
-
-🛠️ Technologies Used
-
+```
 Programming Language: Java (JDK 8+)
-
 Development Environment: BlueJ / Eclipse / IntelliJ IDEA
+Core Concepts: Collections Framework (ArrayList), Scanner Input, 
+               Switch-Case Logic, OOP Principles
+```
 
-Core Concepts: Collections Framework (ArrayList), Scanner Input, Switch-Case Logic, OOP Principles.
+---
 
-📂 Project Structure
+## 📂 Project Structure
 
+```
 YummyBee/
 ├── src/
 │   ├── MainClass.java        # Entry point & Billing Logic
@@ -79,105 +81,86 @@ YummyBee/
 │   ├── Coffee.java           # Food Item Class
 │   └── combos.java           # Food Item Class
 └── README.md                 # Documentation
+```
 
+---
 
-🚀 Steps to Install & Run
+## 🚀 Installation & Setup
 
-Prerequisites
+### Prerequisites
+- ☕ Java Development Kit (JDK) installed
+- 🔵 BlueJ IDE (Recommended) or any standard Java IDE
 
-Java Development Kit (JDK) installed.
+### Option 1: Running in BlueJ (Preferred)
 
-BlueJ IDE (Recommended) or any standard Java IDE.
+1. Download the repository code
+2. Open BlueJ and select **Project > Open Project**
+3. Navigate to the folder containing the `.java` files
+4. Click **Compile** to build all classes
+5. Right-click on `MainClass` and select **void main(String[] args)**
+6. The console window will open—follow the on-screen prompts
 
-Running in BlueJ (Preferred)
+### Option 2: Running in Terminal
 
-Download the repository code.
-
-Open BlueJ and select Project > Open Project.
-
-Navigate to the folder containing the .java files.
-
-Click Compile to build all classes.
-
-Right-click on MainClass and select void main(String[] args).
-
-The console window will open—follow the on-screen prompts.
-
-Running in Terminal
-
-Navigate to the source folder:
-
+```bash
+# Navigate to the source folder
 cd src
 
-
-Compile the code:
-
+# Compile the code
 javac MainClass.java
 
-
-Run the application:
-
+# Run the application
 java MainClass
+```
 
+---
 
-🧪 Instructions for Testing
+## 📖 User Instructions
 
-To verify the Functional Requirements, try the following test cases:
+1. **Enter your personal details** when prompted
+2. **Enter the number** corresponding to the food you want
+3. **Follow the on-screen instructions** to complete your order
 
-Test Case
+---
 
-Input Action
+## 🧪 Testing Guide
 
-Expected Outcome
+### Test Cases for Functional Requirements:
 
-Login Validation
+| Test Case | Input Action | Expected Outcome |
+|-----------|--------------|------------------|
+| **Login Validation** | Email: `A`, Pass: `B` | System denies access and exits |
+| **Successful Login** | Email: `A`, Pass: `A` | Access granted to the main menu |
+| **Add to Cart** | Select `1` (Burger) → Veg | Item added to internal cart list |
+| **View Cart** | Select option `7` | Displays all items added so far |
+| **Update Order** | Select `7` → `2` (Update) | Change quantity; Total updates automatically |
+| **Remove Item** | Select `7` → `1` (Remove) | Item removed; Final bill decreases |
+| **Coupon Logic** | Enter Code `112021` | 20% discount applied to final total |
 
-Enter Email: A, Pass: B
+---
 
-System denies access and exits.
+## 📸 Screenshots
 
-Successful Login
+> *Place your screenshots in a folder named `screenshots` and link them here*
 
-Enter Email: A, Pass: A
+- Main Menu Interface
+- Final Bill Generation
 
-Access granted to the main menu.
+---
 
-Add to Cart
+## 📝 Version History
 
-Select 1 (Burger) -> Veg
+- **VERSION/DATE:** *(To be updated)*
+- **HOW TO START:** Right click the MainClass, first compile it and then click on void main
 
-Item added to internal cart list.
+---
 
-View Cart
+<div align="center">
 
-Select option 7
+### Built for VITyarthi Flipped Course Evaluation
 
-Displays all items added so far.
+---
 
-Update Order
+*Made with ❤️ by Aniket Pandey*
 
-Select 7 -> 2 (Update)
-
-Change quantity of an item; Total updates automatically.
-
-Remove Item
-
-Select 7 -> 1 (Remove)
-
-Item removed from list; Final bill decreases.
-
-Coupon Logic
-
-Enter Code 112021
-
-20% discount applied to final total.
-
-📸 Screenshots
-
-(Place your screenshots in a folder named screenshots and link them here. Example below:)
-
-Main Menu Interface
-
-Final Bill Generation
-
-Built for VITyarthi Flipped Course Evaluation.
+</div>
