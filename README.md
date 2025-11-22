@@ -69,7 +69,7 @@ Core Concepts: Collections Framework (ArrayList), Scanner Input,
 
 ```
 YummyBee/
-├── src/
+├── src/                      # Java source files
 │   ├── MainClass.java        # Entry point & Billing Logic
 │   ├── PersonalDetails.java  # User Auth Module
 │   ├── CartItem.java         # Data Model for Cart Objects
@@ -80,6 +80,8 @@ YummyBee/
 │   ├── Colddrink.java        # Food Item Class
 │   ├── Coffee.java           # Food Item Class
 │   └── combos.java           # Food Item Class
+├── screenshots/              # Application screenshots
+├── statement.md              # Project Statement Document
 └── README.md                 # Documentation
 ```
 
@@ -141,10 +143,13 @@ java MainClass
 
 ## 📸 Screenshots
 
-> *Place your screenshots in a folder named `screenshots` and link them here*
+> *Add your screenshots to the `screenshots/` folder and link them below*
 
-- Main Menu Interface
-- Final Bill Generation
+### Main Menu Interface
+![Main Menu](screenshots/main-menu.png)
+
+### Final Bill Generation
+![Bill](screenshots/final-bill.png)
 
 ---
 
