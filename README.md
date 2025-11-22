@@ -143,13 +143,13 @@ java MainClass
 
 ## 📸 Screenshots
 
-> *Add your screenshots to the `screenshots/` folder and link them below*
+
 
 ### Main Menu Interface
-![Main Menu](screenshots/main-menu.png)
+![Main Menu](screenshots/Main.png)
 
 ### Final Bill Generation
-![Bill](screenshots/final-bill.png)
+![Bill](screenshots/Bill.png)
 
 ---
 
